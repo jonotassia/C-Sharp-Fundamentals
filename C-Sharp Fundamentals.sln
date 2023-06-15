@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber", "GuessTheNumber\GuessTheNumber.csproj", "{E6741CE2-646A-4CBA-98EA-7E358B098240}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions", "Functions\Functions.csproj", "{EF755E6A-C583-499B-A072-8CA4B9F63AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{24FCC934-8599-42DC-8B9E-02C3F77135BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{E6741CE2-646A-4CBA-98EA-7E358B098240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6741CE2-646A-4CBA-98EA-7E358B098240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6741CE2-646A-4CBA-98EA-7E358B098240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF755E6A-C583-499B-A072-8CA4B9F63AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF755E6A-C583-499B-A072-8CA4B9F63AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF755E6A-C583-499B-A072-8CA4B9F63AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF755E6A-C583-499B-A072-8CA4B9F63AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FCC934-8599-42DC-8B9E-02C3F77135BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FCC934-8599-42DC-8B9E-02C3F77135BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FCC934-8599-42DC-8B9E-02C3F77135BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FCC934-8599-42DC-8B9E-02C3F77135BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
