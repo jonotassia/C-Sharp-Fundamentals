@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "C-Sharp Fundamentals\HelloWorld.csproj", "{1DAEA4A6-FC03-45DB-B3C1-7A96B1BECE0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "C-Sharp Fundamentals\HelloWorld.csproj", "{1DAEA4A6-FC03-45DB-B3C1-7A96B1BECE0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vars and Data Types", "Vars and Data Types\Vars and Data Types.csproj", "{6A8E9CEA-78C6-4287-82EC-AC24C91CB454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vars and Data Types", "Vars and Data Types\Vars and Data Types.csproj", "{6A8E9CEA-78C6-4287-82EC-AC24C91CB454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Operators.csproj", "{2EBF2F8B-994F-430E-BE66-11B470D4B42C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "Operators\Operators.csproj", "{2EBF2F8B-994F-430E-BE66-11B470D4B42C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comments", "Comments\Comments.csproj", "{8481F582-B383-47B7-9DD7-E76D175222AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comments", "Comments\Comments.csproj", "{8481F582-B383-47B7-9DD7-E76D175222AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Control Flow", "Control Flow\Control Flow.csproj", "{683B92FC-0044-48F7-9617-9E7B3084CFC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Control Flow", "Control Flow\Control Flow.csproj", "{683B92FC-0044-48F7-9617-9E7B3084CFC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{6B58887D-0C2A-4A67-B109-AFEE3F03EFDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{683B92FC-0044-48F7-9617-9E7B3084CFC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{683B92FC-0044-48F7-9617-9E7B3084CFC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{683B92FC-0044-48F7-9617-9E7B3084CFC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B58887D-0C2A-4A67-B109-AFEE3F03EFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B58887D-0C2A-4A67-B109-AFEE3F03EFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B58887D-0C2A-4A67-B109-AFEE3F03EFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B58887D-0C2A-4A67-B109-AFEE3F03EFDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
