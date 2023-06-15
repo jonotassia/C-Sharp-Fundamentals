@@ -1,13 +1,16 @@
 ﻿// Guess the Number Challenge
 string guess;
 int guessInt;
-int answer;
+
 Random rand = new Random();
+int answer = rand.Next(1, 20); ;
+
+bool running = true;
+
 
 do
 {
-    answer = rand.Next(1, 20);
-    Console.WriteLine("Guess a number between 1 and 20");
+    Console.WriteLine("Guess a number between 1 and 20.");
 
     guess = Console.ReadLine();
     bool isInt = int.TryParse(guess, out guessInt);
@@ -15,6 +18,12 @@ do
     if (!isInt)
     {
         Console.WriteLine("Please enter an integer.");
+        continue;
+    }
+
+    if (guessInt == -1)
+    {
+        running = false;
         continue;
     }
 
@@ -29,7 +38,8 @@ do
     else
     {
         Console.WriteLine("You got it!");
-        break;
+        running = false;
+        continue;
     }
 
-} while (guessInt != answer || guess != "-1");
+} while (running);
