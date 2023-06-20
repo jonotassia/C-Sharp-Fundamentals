@@ -7,7 +7,7 @@ do
 
     if (dtInput == "exit")
     {
-        continue;
+        break;
     }
 
     DateTime res;

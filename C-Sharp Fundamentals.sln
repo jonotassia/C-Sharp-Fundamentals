@@ -27,6 +27,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank Accounts", "Bank Accou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "How Many Days", "How Many Days\How Many Days.csproj", "{4253CEE3-99E3-463A-9365-5EDD3B5E3B76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO", "FileIO\FileIO.csproj", "{8A56458A-EE31-4371-8462-C6D6B3318DD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files and Directories Challenge", "Files and Directories Challenge\Files and Directories Challenge.csproj", "{42F64871-6094-4AE7-9C58-7888BB3C9EB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{4253CEE3-99E3-463A-9365-5EDD3B5E3B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4253CEE3-99E3-463A-9365-5EDD3B5E3B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4253CEE3-99E3-463A-9365-5EDD3B5E3B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A56458A-EE31-4371-8462-C6D6B3318DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A56458A-EE31-4371-8462-C6D6B3318DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A56458A-EE31-4371-8462-C6D6B3318DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A56458A-EE31-4371-8462-C6D6B3318DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F64871-6094-4AE7-9C58-7888BB3C9EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F64871-6094-4AE7-9C58-7888BB3C9EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F64871-6094-4AE7-9C58-7888BB3C9EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F64871-6094-4AE7-9C58-7888BB3C9EB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
