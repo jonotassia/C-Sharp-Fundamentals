@@ -172,3 +172,86 @@ bool succeeded = false;
         Console.WriteLine(targetNum);
     }
 
+// Parsing DateTime
+
+DateTime now = DateTime.Now;
+Console.WriteLine(now);
+
+// DateOnly and Time Only represent just date and time
+DateOnly dt = DateOnly.FromDateTime(DateTime.Now);
+TimeOnly tm = TimeOnly.FromDateTime(DateTime.Now);
+Console.WriteLine(tm);
+Console.WriteLine(dt); 
+
+// Dates have properties that can be inspected
+Console.WriteLine(now.DayOfWeek);
+Console.WriteLine(now.DayOfYear);
+
+// Dates also have methods to change their values
+now = now.AddDays(5);
+now = now.AddHours(9);
+now = now.AddMonths(1);
+Console.WriteLine(now);
+
+// TimeSpan class represents a duration of time
+DateTime AprilFools = new DateTime(now.Year, 4, 1);
+DateTime NewYears = new DateTime(now.Year, 1, 1);
+TimeSpan interval = AprilFools - NewYears;
+Console.WriteLine(interval);
+
+// Dates can be compared using regular operators
+Console.WriteLine($"{NewYears > AprilFools}");
+
+// Formatting Dates
+DateTime AprFools = new DateTime(2025, 4, 1, 13, 23, 30);
+
+// 'd' Short Date: mm/dd/yyyy (or dd/mm depending on locale)
+Console.WriteLine($"{AprFools:d}");
+
+// 'D' Full Date: Month, Day Year (or dd/mm depending on locale)
+Console.WriteLine($"{AprFools:D}");
+
+// 'f' Month, Day Year, short time (no seconds included)
+Console.WriteLine($"{AprFools:f}");
+
+// 'F' Month, Day Year, long time (seconds included)
+Console.WriteLine($"{AprFools:F}");
+
+// 'g' mm/dd/yyyy and short time
+Console.WriteLine($"{AprFools:g}");
+
+// 'G' mm/dd/yyyy and long time
+Console.WriteLine($"{AprFools:G}");
+
+// You can also format using a specific culture using the Globalization namespace
+Console.WriteLine(AprFools.ToString("d", CultureInfo.CreateSpecificCulture("de-DE")));
+
+// You can also specify your own custom formats: https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
+Console.WriteLine($"{AprFools:dddd, MMMM, d yyyy}");
+Console.WriteLine($"{AprFools:ddd h:mm:ss tt}");
+Console.WriteLine($"{AprFools:MMM, d yyyy}");
+
+// Parsing DateTimes from Strings
+string[] sampleDateTimes =
+{
+    "2/5/2025 1:23 PM",
+    "1/1/2020 1:23:30 PM",
+    "01.04.2025",
+    "Tuesday, April, 1 2025",
+    "Wednesday 1:23:30 PM",
+    "1/1 12:00",
+    "Apr, 1 1920"
+};
+
+foreach (string sampleDateTime in sampleDateTimes)
+{
+    DateTime res;
+    if (DateTime.TryParse(sampleDateTime, out res))
+    {
+        Console.WriteLine(res);
+    }
+    else 
+    { 
+        Console.WriteLine("Invalid date format.");
+    }
+}

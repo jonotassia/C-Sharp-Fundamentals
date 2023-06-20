@@ -8,7 +8,7 @@
             int i = 10;
             float f = 2.0f;
             decimal d = 10.0m;
-            bool b = true;
+            bool b = default;
             char c = 'c';
 
             // Strings
